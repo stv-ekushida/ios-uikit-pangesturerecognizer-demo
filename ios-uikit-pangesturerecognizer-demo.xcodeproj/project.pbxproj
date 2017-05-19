@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA5CA5F1ECFA5D400F28EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5CA5E1ECFA5D400F28EE0 /* AppDelegate.swift */; };
+		BCA5CA611ECFA5D400F28EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5CA601ECFA5D400F28EE0 /* ViewController.swift */; };
+		BCA5CA641ECFA5D400F28EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA5CA621ECFA5D400F28EE0 /* Main.storyboard */; };
+		BCA5CA661ECFA5D400F28EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA5CA651ECFA5D400F28EE0 /* Assets.xcassets */; };
+		BCA5CA691ECFA5D400F28EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA5CA671ECFA5D400F28EE0 /* LaunchScreen.storyboard */; };
+		BCA5CA741ECFA5D400F28EE0 /* ios_uikit_pangesturerecognizer_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5CA731ECFA5D400F28EE0 /* ios_uikit_pangesturerecognizer_demoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA5CA701ECFA5D400F28EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA5CA531ECFA5D400F28EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA5CA5A1ECFA5D400F28EE0;
+			remoteInfo = "ios-uikit-pangesturerecognizer-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA5CA5B1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-uikit-pangesturerecognizer-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA5CA5E1ECFA5D400F28EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA5CA601ECFA5D400F28EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA5CA631ECFA5D400F28EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA5CA651ECFA5D400F28EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA5CA681ECFA5D400F28EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA5CA6A1ECFA5D400F28EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA5CA6F1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-pangesturerecognizer-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA5CA731ECFA5D400F28EE0 /* ios_uikit_pangesturerecognizer_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_pangesturerecognizer_demoTests.swift; sourceTree = "<group>"; };
+		BCA5CA751ECFA5D400F28EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA5CA581ECFA5D400F28EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5CA6C1ECFA5D400F28EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA5CA521ECFA5D400F28EE0 = {
+			isa = PBXGroup;
+			children = (
+				BCA5CA5D1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo */,
+				BCA5CA721ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests */,
+				BCA5CA5C1ECFA5D400F28EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA5CA5C1ECFA5D400F28EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5CA5B1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo.app */,
+				BCA5CA6F1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA5CA5D1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5CA5E1ECFA5D400F28EE0 /* AppDelegate.swift */,
+				BCA5CA601ECFA5D400F28EE0 /* ViewController.swift */,
+				BCA5CA621ECFA5D400F28EE0 /* Main.storyboard */,
+				BCA5CA651ECFA5D400F28EE0 /* Assets.xcassets */,
+				BCA5CA671ECFA5D400F28EE0 /* LaunchScreen.storyboard */,
+				BCA5CA6A1ECFA5D400F28EE0 /* Info.plist */,
+			);
+			path = "ios-uikit-pangesturerecognizer-demo";
+			sourceTree = "<group>";
+		};
+		BCA5CA721ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5CA731ECFA5D400F28EE0 /* ios_uikit_pangesturerecognizer_demoTests.swift */,
+				BCA5CA751ECFA5D400F28EE0 /* Info.plist */,
+			);
+			path = "ios-uikit-pangesturerecognizer-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA5CA5A1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA5CA781ECFA5D400F28EE0 /* Build configuration list for PBXNativeTarget "ios-uikit-pangesturerecognizer-demo" */;
+			buildPhases = (
+				BCA5CA571ECFA5D400F28EE0 /* Sources */,
+				BCA5CA581ECFA5D400F28EE0 /* Frameworks */,
+				BCA5CA591ECFA5D400F28EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-uikit-pangesturerecognizer-demo";
+			productName = "ios-uikit-pangesturerecognizer-demo";
+			productReference = BCA5CA5B1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA5CA6E1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA5CA7B1ECFA5D400F28EE0 /* Build configuration list for PBXNativeTarget "ios-uikit-pangesturerecognizer-demoTests" */;
+			buildPhases = (
+				BCA5CA6B1ECFA5D400F28EE0 /* Sources */,
+				BCA5CA6C1ECFA5D400F28EE0 /* Frameworks */,
+				BCA5CA6D1ECFA5D400F28EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA5CA711ECFA5D400F28EE0 /* PBXTargetDependency */,
+			);
+			name = "ios-uikit-pangesturerecognizer-demoTests";
+			productName = "ios-uikit-pangesturerecognizer-demoTests";
+			productReference = BCA5CA6F1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA5CA531ECFA5D400F28EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kushida　Eiji";
+				TargetAttributes = {
+					BCA5CA5A1ECFA5D400F28EE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+					};
+					BCA5CA6E1ECFA5D400F28EE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCA5CA5A1ECFA5D400F28EE0;
+					};
+				};
+			};
+			buildConfigurationList = BCA5CA561ECFA5D400F28EE0 /* Build configuration list for PBXProject "ios-uikit-pangesturerecognizer-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA5CA521ECFA5D400F28EE0;
+			productRefGroup = BCA5CA5C1ECFA5D400F28EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA5CA5A1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo */,
+				BCA5CA6E1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA5CA591ECFA5D400F28EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5CA691ECFA5D400F28EE0 /* LaunchScreen.storyboard in Resources */,
+				BCA5CA661ECFA5D400F28EE0 /* Assets.xcassets in Resources */,
+				BCA5CA641ECFA5D400F28EE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5CA6D1ECFA5D400F28EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA5CA571ECFA5D400F28EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5CA611ECFA5D400F28EE0 /* ViewController.swift in Sources */,
+				BCA5CA5F1ECFA5D400F28EE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5CA6B1ECFA5D400F28EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5CA741ECFA5D400F28EE0 /* ios_uikit_pangesturerecognizer_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA5CA711ECFA5D400F28EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA5CA5A1ECFA5D400F28EE0 /* ios-uikit-pangesturerecognizer-demo */;
+			targetProxy = BCA5CA701ECFA5D400F28EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA5CA621ECFA5D400F28EE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA5CA631ECFA5D400F28EE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA5CA671ECFA5D400F28EE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA5CA681ECFA5D400F28EE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA5CA761ECFA5D400F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA5CA771ECFA5D400F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA5CA791ECFA5D400F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-uikit-pangesturerecognizer-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-pangesturerecognizer-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCA5CA7A1ECFA5D400F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-uikit-pangesturerecognizer-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-pangesturerecognizer-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCA5CA7C1ECFA5D400F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-uikit-pangesturerecognizer-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-pangesturerecognizer-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-pangesturerecognizer-demo.app/ios-uikit-pangesturerecognizer-demo";
+			};
+			name = Debug;
+		};
+		BCA5CA7D1ECFA5D400F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-uikit-pangesturerecognizer-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-pangesturerecognizer-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-pangesturerecognizer-demo.app/ios-uikit-pangesturerecognizer-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA5CA561ECFA5D400F28EE0 /* Build configuration list for PBXProject "ios-uikit-pangesturerecognizer-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5CA761ECFA5D400F28EE0 /* Debug */,
+				BCA5CA771ECFA5D400F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA5CA781ECFA5D400F28EE0 /* Build configuration list for PBXNativeTarget "ios-uikit-pangesturerecognizer-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5CA791ECFA5D400F28EE0 /* Debug */,
+				BCA5CA7A1ECFA5D400F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCA5CA7B1ECFA5D400F28EE0 /* Build configuration list for PBXNativeTarget "ios-uikit-pangesturerecognizer-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5CA7C1ECFA5D400F28EE0 /* Debug */,
+				BCA5CA7D1ECFA5D400F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA5CA531ECFA5D400F28EE0 /* Project object */;
+}
